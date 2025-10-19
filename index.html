@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joyeria store </title>
+    
+    <link rel="stylesheet" href="css/staley.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-content container">
+            <a href="#" class="logo">joyeria store</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#empresa">Nuestra Historia</a></li>
+                <li><a href="#productos">Colección</a></li>
+                <li><a href="#contacto">Escríbenos</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </div>
+    </nav>
+
+ <section id="carousel">
+  <div class="carousel-item active" id="c-item-1">
+    <div class="carousel-caption">
+      <video src="imagenes/video.mp4" autoplay muted loop playsinline></video>
+      <h1>Diseñando Joyas, Impulsando Sueños</h1>
+    </div>
+  </div>
+
+  <div class="carousel-item" id="c-item-2">
+    <div class="carousel-caption">
+      <video src="imagenes/01.mp4" autoplay muted loop playsinline></video>
+      <h1>Calidad Artesanal Inigualable</h1>
+    </div>
+  </div>
+
+  <div class="carousel-item" id="c-item-3">
+    <div class="carousel-caption">
+        <video src="imagenes/video3.mp4" autoplay muted loop playsinline></video>
+      <h1>El Brillo de tu Éxito</h1>
+    </div>
+  </div>
+ </section>
+
+    </section>
+
+<section id="empresa" class="bg-light">
+  <div class="container">
+    <h2>Nuestra Historia</h2>
+    <div class="mvv-grid">
+      
+      <div class="mvv-card">
+        <img src="imagenes/pandora.jpg" alt="Visión de la empresa">
+        <h3>Visión</h3>
+        <p>
+          Ser la marca de joyería referente para la comunidad emprendedora global, simbolizando 
+          el coraje, la creatividad y la prosperidad.
+        </p>
+      </div>
+
+      <div class="mvv-card">
+        <img src="imagenes/anillo de diamante.webp" alt="Misión de la empresa">
+        <h3>Misión</h3>
+        <p>
+          Crear joyas que no solo adornan, sino que inspiran y empoderan.
+          Cada pieza es un recordatorio tangible del valor y el potencial ilimitado de nuestros clientes.
+        </p>
+      </div>
+
+      <div class="mvv-card">
+        <img src="imagenes/100.jpg" alt="Valores de la empresa">
+        <h3>Valores</h3>
+        <p><strong>Excelencia:</strong> En materiales y diseño.</p>
+        <p><strong>Inspiración:</strong> Motivar a través de la belleza.</p>
+        <p><strong>Sostenibilidad:</strong> Prácticas éticas y responsables.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <section id="productos">
+        <div class="container">
+            <h2>Colección de mujer</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="imagenes/10.jpg" alt="Collar Sello Personal">
+                    <div class="product-info">
+                        <h3>Collar Sello Personal</h3>
+                        <span class="product-price">$175.00</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/2.jpg" alt="Brazalete de Malla Fina">
+                    <div class="product-info">
+                        <h3>anilos de diamante"</h3>                        
+                        <span class="product-price">$95.00</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/7.jpg" alt="Anillo con Gema Central">
+                    <div class="product-info">
+                        <h3>Arritos de perlas "</h3>                        
+                        <span class="product-price">$100</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <div class="container">
+            <h2>Colección de hombre</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="imagenes/13.jpg" alt="Collar Sello Personal">
+                    <div class="product-info">
+                        <h3>Relog de diamante</h3>
+                        <span class="product-price">$175.00</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/12.jpg" alt="Brazalete de Malla Fina">
+                    <div class="product-info">
+                        <h3>Relog de oro </h3>
+                        <span class="product-price">$95.00</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="imagenes/16.jpg" alt="Anillo con Gema Central">
+                    <div class="product-info">
+                        <h3>Brazalete</h3>
+                        <span class="product-price">$100</span>
+                    </div>
+                </div>
+                <br>
+    </section>
+
+    <section id="contacto" class="bg-dark">
+        <div class="container">
+            <h2>¡Tu Próxima Pieza de Éxito te Espera!</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto (Ej: Consulta sobre pedido)</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Tu Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </div>
+       
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Joyería Gemas de Lujo. Todos los derechos reservados.</p>
+            <p>Hecho para celebrar el camino del Emprendedor.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/js app.js"></script>
+
+</body>
+</html>
